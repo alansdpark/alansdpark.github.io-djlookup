@@ -1,0 +1,68 @@
+body {
+    /* font */
+    font-family: 'Open Sans', sans-serif;
+    /* background color gradient */
+    background: #70e1f5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.TableHeader {
+    padding-bottom: 10px;
+}
+
+#titleButton {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ArtistLocation {
+    text-align: center;
+    width: 15%;
+}
+
+#ZipCodeHeader {
+    text-align: center;
+    color: white;
+}
+
+#ZipCodeHeader h4 {
+    margin-bottom: 5px;
+}
+
+#ZipCodeEnter {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.TableGrid {
+    width: 100%;
+}
+
+.ArtistName {
+    font-size: 36px;
+    text-align: center;
+    width: 20%;
+}
+
+.MainTitle {
+    font-size: 48px;
+    background: transparent;
+    border: 0px;
+    color: white;
+    text-align: center;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px #000,
+                2px 2px #000,
+                3px 3px #000;
+
+}
+.MainTitle:hover {
+    text-shadow: 1px 1px #000,
+                2px 2px #000,
+                3px 3px #000,
+                4px 4px #000,
+                5px 5px #000;
+}
